@@ -361,68 +361,68 @@ $TEXT{'sync_help'} = "Use a opção de sincronia para copiar a partir de um daem
 Use os seguintes parâmetros:<br><br>
 Nome do Host - O IP ou nome do host de um servidor remoto<br>
 Diretório Remoto - O nome do diretório do servidor remoto que você está indo sincronizar a partir dele.<br>
-Usuário - O usuário remoto<br>
+Nome do Usuário - O usuário remoto<br>
 Senha - A senha remota<br>
 Sistema de Arquivos / Volume - O Nome do volume que você deseja copiar os dados<br>
 Opção de sincronia - O protocolo usado para sincronia<br><br>
 Nota: O servidor remoto deve possuir instalado o RSync para usar esta opção";
 
 #### Users ####
-$TEXT{'users_manager'} = "Users Manager";
-$TEXT{'create_user'} = "Create User";
-$TEXT{'passwords_do_not_match'} = "Passwords do not match.";
-$TEXT{'failed_to_add_user'} = "Failed to add user";
-$TEXT{'failed_to_change_password'} = "Failed to change password";
-$TEXT{'failed_to_add_samba_user'} = "Failed to add Samba User";
-$TEXT{'delete_user'} = "Delete User";
-$TEXT{'user_admin_cant_be_delete'} = "User admin can't be deleted.";
-$TEXT{'user_admin_cant_be_changed'} = "User admin can't be changed.";
-$TEXT{'failed_to_delete_user'} = "Failed to delete user";
-$TEXT{'cant_change_admin_password'} = "Can't change admin password in a demo site";
-$TEXT{'passwords_do_not_match'} = "Passwords do not match";
-$TEXT{'password_must_exist'} = "Password must exist";
-$TEXT{'change_password'} = "Change Password";
-$TEXT{'one_group_needed'} = "At least one group is required";
-$TEXT{'failed_to_change_samba_password'} = "Failed to change Samba password";
-$TEXT{'change_settings'} = "Change Settings";
-$TEXT{'failed_to_change_settings'} = "Failed to change settings.";
-$TEXT{'users'} = "Users";
-$TEXT{'user_name'} = "User Name";
-$TEXT{'name'} = "Name";
-$TEXT{'desc'} = "Description";
-$TEXT{'uid'} = "UID";
-$TEXT{'group'} = "Group";
-$TEXT{'groups'} = "Groups";
-$TEXT{'password'} = "Password";
-$TEXT{'password_again'} = "Password Again";
-$TEXT{'easynas_admin'} = "EasyNAS Admin";
-$TEXT{'delete_user?'} = "Are you sure you want to delete the user ?";
-$TEXT{'user_settings'} = "USER SETTINGS";
-$TEXT{'users_help'} = "Use this menu to add/delete accounts.";
+$TEXT{'users_manager'} = "Gerenciador de Usuários";
+$TEXT{'create_user'} = "Criar Usuário";
+$TEXT{'passwords_do_not_match'} = "Senhas não correspondem!";
+$TEXT{'failed_to_add_user'} = "Falha ao adicionar usuário";
+$TEXT{'failed_to_change_password'} = "Falha a alterar a senha";
+$TEXT{'failed_to_add_samba_user'} = "Falha ao adicionar o usuário ao Samba";
+$TEXT{'delete_user'} = "Eliminar Usuário";
+$TEXT{'user_admin_cant_be_delete'} = "Usuário admin não poderá ser eliminado.";
+$TEXT{'user_admin_cant_be_changed'} = "Usuário admin não poderá ser alterado.";
+$TEXT{'failed_to_delete_user'} = "Falha ao eliminar o usuário";
+$TEXT{'cant_change_admin_password'} = "Não pode alterar a senha do admin em um site demonstração";
+$TEXT{'passwords_do_not_match'} = "Senhas não correspondem!";
+$TEXT{'password_must_exist'} = "Senha deve existir";
+$TEXT{'change_password'} = "Alterar Senha";
+$TEXT{'one_group_needed'} = "Ao menos um grupo é necessário";
+$TEXT{'failed_to_change_samba_password'} = "Falha ao alterar a senha do Samba";
+$TEXT{'change_settings'} = "Mudar Configurações";
+$TEXT{'failed_to_change_settings'} = "Falha ao alterar as configurações.";
+$TEXT{'users'} = "Usuários";
+$TEXT{'user_name'} = "Nome Usuário";
+$TEXT{'name'} = "Nome";
+$TEXT{'desc'} = "Descrição";
+$TEXT{'uid'} = "UserID";
+$TEXT{'group'} = "Grupo";
+$TEXT{'groups'} = "Grupos";
+$TEXT{'password'} = "Senha";
+$TEXT{'password_again'} = "Senha novamente";
+$TEXT{'easynas_admin'} = "Administrador EasyNAS";
+$TEXT{'delete_user?'} = "Você tem certeza de que deseja eliminar o usuário ?";
+$TEXT{'user_settings'} = "CONFIGURAÇÕES DE USUÁRIO";
+$TEXT{'users_help'} = "Use este menu para adicionar/eliminar contas.";
 		      
 
 #### Groups ####
-$TEXT{'groups_manager'} = "Groups Manager";
-$TEXT{'create_group'} = "Create Group";
-$TEXT{'failed_to_add_group'} = "Failed to add the group";
-$TEXT{'delete_group'} = "Delete Group";
-$TEXT{'group'} = "Group";
-$TEXT{'groups'} = "Groups";
-$TEXT{'can_not_deleted'} = "can't be deleted";
-$TEXT{'failed_to_delete_group'} = "Failed to delete the group";
-$TEXT{'group_name'} = "Group Name";
-$TEXT{'access_permission'} = "Access Permission";
-$TEXT{'groups_settings'} = "Groups Settings";
-$TEXT{'gid'} = "GID";
-$TEXT{'delete_group?'} = "Are you sure you want to delete the group ?";
-$TEXT{'groups_help'} = "Use this menu to add/delete groups.<br>
-                        or to change group settings";
-$TEXT{'groups_help2'} = "Enter the group name and the roles this group will have access to:<br><br>
-                         SYSTEM - General settings of the NAS.<br>
-                         STORAGE - Allow to add/change/delete FileSystems and volumes<br>
-                         USERS - Manage users and groups<br>
-                         SHARING - Configure file sharing protocols<br>
-                         SERVICES - Configure network services.";
+$TEXT{'groups_manager'} = "Gerenciador de Grupos";
+$TEXT{'create_group'} = "Criar Grupo";
+$TEXT{'failed_to_add_group'} = "Falha ao adicionar grupo";
+$TEXT{'delete_group'} = "Eliminar Grupo";
+$TEXT{'group'} = "Grupo";
+$TEXT{'groups'} = "Grupos";
+$TEXT{'can_not_deleted'} = "Não pode ser eliminado";
+$TEXT{'failed_to_delete_group'} = "Falha ao eliminar o grupo";
+$TEXT{'group_name'} = "nome do Grupo";
+$TEXT{'access_permission'} = "Permissão de Acesso";
+$TEXT{'groups_settings'} = "Configurações de Grupos";
+$TEXT{'gid'} = "GroupID";
+$TEXT{'delete_group?'} = "Você tem certeza de que deseja eliminar o grupo ?";
+$TEXT{'groups_help'} = "Use este menu para adicionar/eliminar grupos.<br>
+                        ou para alterar as configurações do grupo";
+$TEXT{'groups_help2'} = "Digite o nome do grupo e os papéis que este grupo terá acesso:<br><br>
+                         SISTEMA (SYSTEM)           - Configurações gerais do NAS.<br>
+                         ARMAZENAMENTO (STORAGE)    - Permite adicionar/alterar/eliminar os Sistemas de Arquivos e os Volumes<br>
+                         USUÁRIOS (USERS)           - Gerencia usuário e grupos<br>
+                         COMPARTILHAMENTO (SHARING) - Configura os protocolos de compartilhamento de arquivos<br>
+                         SERVIÇOS (SERVICES)        - Configura os serviços de rede.";
 
 
 ##### Radius #####
