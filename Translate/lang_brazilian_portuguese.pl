@@ -345,27 +345,27 @@ $TEXT{'vol_help2'} = "Adicione ou altere as seguintes configurações:<br><br>
 
 
 #### Sync ####
-$TEXT{'sync'} = "Sync Volumes";
-$TEXT{'hostname'} = "Host name";
-$TEXT{'rdir'} = "Remote Directory";
-$TEXT{'password'} = "Password";
-$TEXT{'sync_option'} = "Sync Option";
-$TEXT{'sync_complete'} = "Sync Completed";
-$TEXT{'failed_to_sync'} = "Failed to Sync";
-$TEXT{'sync_could_not_connect'} = "Could not connect to RSync server";
-$TEXT{'sync_bad_user_password'} = "Failed to Sync - Bad username or password";
-$TEXT{'no_hostname'} = "Hostname was not enterd";
-$TEXT{'no_rdir'} = "Remote dir was not enterd";
-$TEXT{'no_vol'} = "Volume was not selected";
-$TEXT{'sync_help'} = "Use the Sync option to copy from a remote rsync daemon a complete directory<br>
-use the following parameters:<br><br>
-Host name - the IP or host name of the remote server<br>
-Remote Directory - the directory name from the remote server you are going to sync from.<br>
-Username - the remote username<br>
-Password - the remote password<br>
-File System / Volume - the volume name you want to copy the data to<br>
-Sync option - the protocol to use for sync<br><br>
-Note: the remote server myst have Rsync installed to use this option";
+$TEXT{'sync'} = "Sincronia de Volumes";
+$TEXT{'hostname'} = "Nome do Host";
+$TEXT{'rdir'} = "Diretório Remoto";
+$TEXT{'password'} = "Senha";
+$TEXT{'sync_option'} = "Opção de Sincronia";
+$TEXT{'sync_complete'} = "Sincronia concluída";
+$TEXT{'failed_to_sync'} = "Falha ao sincronizar";
+$TEXT{'sync_could_not_connect'} = "Não pode conectar ao servidor RSync";
+$TEXT{'sync_bad_user_password'} = "Falha ao sincronizar - Usuário ou senha incorreta";
+$TEXT{'no_hostname'} = "Nome do Host não foi digitado";
+$TEXT{'no_rdir'} = "Diretório remoto não foi digitado";
+$TEXT{'no_vol'} = "Volume não foi selecionado";
+$TEXT{'sync_help'} = "Use a opção de sincronia para copiar a partir de um daemon rsync remoto um diretório completo<br>
+Use os seguintes parâmetros:<br><br>
+Nome do Host - O IP ou nome do host de um servidor remoto<br>
+Diretório Remoto - O nome do diretório do servidor remoto que você está indo sincronizar a partir dele.<br>
+Usuário - O usuário remoto<br>
+Senha - A senha remota<br>
+Sistema de Arquivos / Volume - O Nome do volume que você deseja copiar os dados<br>
+Opção de sincronia - O protocolo usado para sincronia<br><br>
+Nota: O servidor remoto deve possuir instalado o RSync para usar esta opção";
 
 #### Users ####
 $TEXT{'users_manager'} = "Users Manager";
