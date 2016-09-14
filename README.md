@@ -1,0 +1,1 @@
+Translate EasyNAS messages from English to Brazilian Portuguese.

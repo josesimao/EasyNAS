@@ -432,19 +432,19 @@ $TEXT{'clients'} = "Clientes";
 
 
 #### Security ####
-$TEXT{'security'} = "Security";
-$TEXT{'access_control'} = "Access Control";
+$TEXT{'security'} = "Segurança";
+$TEXT{'access_control'} = "Controle de Acesso";
 $TEXT{'security_help'} = "";
-$TEXT{'enter_ip_or_network'} = "Enter the IP address or network from with the connections to this server will be allowed or rejected";
-$TEXT{'error_security_demo'} = "Can't change ACL in a demo site";
-$TEXT{'security_help'} = "Access Control <br><br>
-                          allow or deny access to the admin menu from IPs or networks<br><br>
-                          Allow all connection:  anyone can access the admin menu. <br>
-                          Deny connection from the list: anyone from the list can't access the admin menu, the rest can.<br>
-                          Allow connection from the list: anyone from the list can access the admin menu, the rest can't.<br><br>
+$TEXT{'enter_ip_or_network'} = "Digite o endereço IP ou a rede na qual as conexões para este servidor serão permitidas ou rejeitadas";
+$TEXT{'error_security_demo'} = "Não é possível alterar ACL em site demonstração";
+$TEXT{'security_help'} = "Controle de Acesso <br><br>
+						  Permitir ou negar o acesso ao menu de administração de IPs ou da rede<br><br>
+                          Permitir todas as conexões: Qualquer um pode acessar o menu de administração. <br>
+                          Negar conexão da lista: Qualquer um da lista não pode acessar o menu de administração, o restante pode.<br>
+                          Permitir conexão da lista: Qualquer um da lista pode acessar o menu de administração, o restante não pode.<br><br>
                           the IP/network list need to be in the following format:<br>
                           IP: x.y.z.w <br>
-                          subnet:  x.y.z.w/[1-32] <br>";
+                          Subrede (subnet):  x.y.z.w/[1-32] <br>";
 			
 
 #### SVR_SSH ####
