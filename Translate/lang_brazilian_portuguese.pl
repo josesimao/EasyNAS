@@ -364,7 +364,7 @@ Diretório Remoto - O nome do diretório do servidor remoto que você está indo
 Nome do Usuário - O usuário remoto<br>
 Senha - A senha remota<br>
 Sistema de Arquivos / Volume - O Nome do volume que você deseja copiar os dados<br>
-Opção de sincronia - O protocolo usado para sincronia<br><br>
+Opção de Sincronia - O protocolo usado para sincronia<br><br>
 Nota: O servidor remoto deve possuir instalado o RSync para usar esta opção";
 
 #### Users ####
@@ -440,11 +440,11 @@ $TEXT{'error_security_demo'} = "Não é possível alterar ACL em site demonstra�
 $TEXT{'security_help'} = "Controle de Acesso <br><br>
 						  Permitir ou negar o acesso ao menu de administração de IPs ou da rede<br><br>
                           Permitir todas as conexões: Qualquer um pode acessar o menu de administração. <br>
-                          Negar conexão da lista: Qualquer um da lista não pode acessar o menu de administração, o restante pode.<br>
-                          Permitir conexão da lista: Qualquer um da lista pode acessar o menu de administração, o restante não pode.<br><br>
-                          the IP/network list need to be in the following format:<br>
+                          Negar conexão a partir da lista: Qualquer um da lista não pode acessar o menu de administração, o restante pode.<br>
+                          Permitir conexão a partir da lista: Qualquer um da lista pode acessar o menu de administração, o restante não pode.<br><br>
+                          A lista de IP/rede precisa estar no seguinte formato:<br>
                           IP: x.y.z.w <br>
-                          Subrede (subnet):  x.y.z.w/[1-32] <br>";
+                          Sub-rede (subnet):  x.y.z.w/[1-32] <br>";
 			
 
 #### SVR_SSH ####
@@ -457,24 +457,24 @@ $TEXT{'ssh_not_installed'} = "SSH não instalado";
 
 #### SVR_DLNA #####
 $TEXT{'dlna'} = "DLNA";
-$TEXT{'dlna_not_installed'} = "DLNA not installed";
-$TEXT{'dlna_port'}="HTTP Port";
-$TEXT{'host_name'}="Host Name";
-$TEXT{'rescan_int'}="Scan Interval";
-$TEXT{'share_nas'} = "Share All NAS";
-$TEXT{'share_fs'} = "Share File System";
-$TEXT{'share_vol'} = "Share Volume";
-$TEXT{'shares'} = "Shares";
-$TEXT{'bad_dlna_port'} = "Bad DLNA port";
-$TEXT{'dlna_not_null'} = "DLNA host can't be null";
-$TEXT{'bad_dlna_scan'} = "Bad DLNA scan internval"; 
-$TEXT{'dlna_help'} = "The DLNA service allows you to share multimedia files with other multimedia devices.<br>
- 		      You can share the all NAS, a Filesystem or a Volume.<br><br>
-                      ON / OFF:  start or stop the DLNA service<br>
-                      HTTP Port: set the HTTP port to see the status and shared files<br>
-                      Host Name: set the host name other multimedia will see<br>
-                      Scan Interval: set the time in seconds the server will refresh his multimedia file list<br>
-                      Shares: Select NAS, Filesystem or a volume";
+$TEXT{'dlna_not_installed'} = "DLNA não instalado";
+$TEXT{'dlna_port'}="Porta HTTP";
+$TEXT{'host_name'}="Nome do Host";
+$TEXT{'rescan_int'}="Intervalo de Varredura";
+$TEXT{'share_nas'} = "Compartilhar todo NAS";
+$TEXT{'share_fs'} = "Compartilhar Sistema de Arquivos";
+$TEXT{'share_vol'} = "Compartilhar Volume";
+$TEXT{'shares'} = "Ações (shares)";
+$TEXT{'bad_dlna_port'} = "Porta DLNA errada";
+$TEXT{'dlna_not_null'} = "Host DLNA não pode ser nulo";
+$TEXT{'bad_dlna_scan'} = "Intervalo de varredura DLNA errôneo"; 
+$TEXT{'dlna_help'} = "O serviço DLNA permite que você compartilhe arquivos multimídia com outros dispositivos multimídia.<br>
+ 		      Você pode compartilhar todo o NAS, um Sistema de Arquivos ou um Volume.<br><br>
+                      ON / OFF: Inicia ou para o serviço DLNA<br>
+                      Porta HTTP: Definir a porta HTTP para ver o estado e os arquivos compartilhados<br>
+                      Nome do Host: Definir o nome do host que outro multimídia verá<br>
+                      Intervalo de varredura: Definir o tempo em segundos que o servidor atualizará sua lista de arquivos multimídia<br>
+                      Ações (Shares): Selecione NAS, Sistema de Arquivos ou um Volume";
 
 
 #### SVR_NFS ####
@@ -488,7 +488,7 @@ $TEXT{'nfs_help'} = "O serviço NFS permite compartilhar volumes com sistemas ba
                         Volumes Compartilhados: Exibir e eliminar os volumes que possuem compartilhamento NFS";
 
 
-#### SVR_SMB ####
+#### SVR_SMB ======> AQUI <======== ####
 $TEXT{'samba'} = "SAMBA";
 $TEXT{'smb'} = "SMB";
 $TEXT{'nmb'} = "NMB";
@@ -538,13 +538,13 @@ $TEXT{'afp_help'} = "Protocolo de arquivo Apple permite compartilhar arquivos en
 
 #### SVR_TFTP ####
 $TEXT{'tftp'} = "TFTP";
-$TEXT{'tftp_not_installed'} = "TFTP not installed";
-$TEXT{'add_tftp'} = "Add TFTP Share";
-$TEXT{'tftp_exists'} = "Share name allready exists";
-$TEXT{'tftp_help'} = "The TFTP service allows you to download and upload files from volumes with no authentication.<br><br>
-                      ON / OFF:  start or stop the TFTP service<br>
-                      Shared Volumes: view and delete the volumes that have TFTP share";
-$TEXT{'tftp_beware'} = "Beware TFTP is is not a secure protocol and does not require any authentication.";
+$TEXT{'tftp_not_installed'} = "TFTP não instalado";
+$TEXT{'add_tftp'} = "Adicionar Compartilhamento TFTP";
+$TEXT{'tftp_exists'} = "Nome do Compartilhamento já existe";
+$TEXT{'tftp_help'} = "O serviço TFTP permite que você baixe e suba arquivos de volumes sem autenticação.<br><br>
+                      ON / OFF:  Inicia ou para o serviço TFTP<br>
+                      Volumes Compartilhados: Exibir e eliminar os volumes que têm compartilhamento TFTF";
+$TEXT{'tftp_beware'} = "Cuidado o TFTP não é um protocolo seguro e não requer qualquer autenticação.";
 
 
 
