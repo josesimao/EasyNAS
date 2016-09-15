@@ -488,36 +488,36 @@ $TEXT{'nfs_help'} = "O serviço NFS permite compartilhar volumes com sistemas ba
                         Volumes Compartilhados: Exibir e eliminar os volumes que possuem compartilhamento NFS";
 
 
-#### SVR_SMB ======> AQUI <======== ####
+#### SVR_SMB ####
 $TEXT{'samba'} = "SAMBA";
 $TEXT{'smb'} = "SMB";
 $TEXT{'nmb'} = "NMB";
-$TEXT{'smb_workgroup'} = "Workgroup Name";
-$TEXT{'smb_netbios'} = "NetBios Name";
-$TEXT{'smb_not_null'} = "Samba settings can't be null";
-$TEXT{'smb_name'} = "Share Name";
-$TEXT{'path'} = "Path";
+$TEXT{'smb_workgroup'} = "Nome do Grupo de Trabalho";
+$TEXT{'smb_netbios'} = "Nome NetBios";
+$TEXT{'smb_not_null'} = "Configurações do Samba não podem ser nulos";
+$TEXT{'smb_name'} = "Nome Compartilhamento";
+$TEXT{'path'} = "Caminho";
 $TEXT{'on_off'} = "ON / OFF";
-$TEXT{'shared_vol'} = "Shared Volumes";
-$TEXT{'delete_share'} = "Delete Share ?";
-$TEXT{'add_smb'} = "Add Samba Share";
-$TEXT{'share_name'} = "Share Name";
-$TEXT{'readonly'} = "Read Only";
-$TEXT{'allow_guest'} = "Allow Guest";
-$TEXT{'browsable'} = "Browsable";
-$TEXT{'smb_not_installed'} = "Samba not installed";
-$TEXT{'missing_name'} = "Share name was not entered"; 
-$TEXT{'smb_exists'} = "Share name allready exists"; 
-$TEXT{'samba_help'} = "The SAMBA service allows you to share volumes with windows systems.<br>
-                       The NMB service will allow to share the system name with windows computers.<br><br>
+$TEXT{'shared_vol'} = "Volumes Compartilhados";
+$TEXT{'delete_share'} = "Elimina Compartilhamento ?";
+$TEXT{'add_smb'} = "Adiciona Compartilhamento Samba";
+$TEXT{'share_name'} = "Nome Compartilhamento";
+$TEXT{'readonly'} = "Somente Leitura";
+$TEXT{'allow_guest'} = "Permissão Convidado";
+$TEXT{'browsable'} = "Navegável";
+$TEXT{'smb_not_installed'} = "Samba não instalado";
+$TEXT{'missing_name'} = "Nome do compartilhamento não foi digitado"; 
+$TEXT{'smb_exists'} = "Nome do compartilhamento já existe"; 
+$TEXT{'samba_help'} = "O serviço SAMBA permite que você compartilhe volumes com sistemas Microsoft Windows.<br>
+                       O serviço NMB permitirá compartilhar o nome do sistema com computadores Microsoft Windows
                        ON / OFF:<br>
-                          SMB - start or stop the SMB service<br>
-                          NMB - start or stop the NMB service<br><br>
-                       Settings:<br>
-                         WorkGroup Name - the windows network name.<br>
-                         Netbios Name - the EasyNAS name in the windows network<br><br>
-                        Shared Volumes:<br>
-                          view and delete the volumes that have SMB share";
+                          SMB - Inicia ou para o serviço SMB<br>
+                          NMB - Inicia ou para o serviço NMB<br><br>
+                       Configurações:<br>
+                         Nome do Grupo de Trabalho (WorkGroup) - O nome da rede do Microsoft Windows.<br>
+                         Nome Netbios - O nome EasyNAS na rede Microsoft Windows<br><br>
+                        Volumes Compartilhados:<br>
+                          Exibe e elimina os volumes que tem o compartilhamento SMB";
 
 
 #### SVR_FTP ####
