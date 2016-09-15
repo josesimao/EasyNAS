@@ -1,7 +1,3 @@
-#! /usr/bin/perl -w
-#
-# lang_english.pl
-# Version 0.6.3
 #
 # EasyNAS is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

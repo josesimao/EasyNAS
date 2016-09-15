@@ -1,6 +1,6 @@
 #! /usr/bin/perl -w
 #
-# lang_english.pl
+# lang_brazilian_portuguese.pl
 # Version 0.6.3
 #
 # EasyNAS is free software: you can redistribute it and/or modify
@@ -69,9 +69,9 @@ $TEXT{'sysinfo_help'} = "<p>Este menu mostra informações do sistema como CPU, 
 
 #### Settings ####
 $TEXT{'general_settings'} = "Configurações Gerais";
-$TEXT{'bad_system_port'} = "Porta do Sistema Ruim";
-$TEXT{'bad_secure_port'} = "Porta de Segurança Ruim";
-$TEXT{'bad_web_port'} = "Bad Web Port";
+$TEXT{'bad_system_port'} = "Porta do Sistema Errônea";
+$TEXT{'bad_secure_port'} = "Porta de Segurança Errônea";
+$TEXT{'bad_web_port'} = "Porta Web Errônea";
 $TEXT{'settings'} = "Configurações";
 $TEXT{'date_time'} = "Data / Hora";
 $TEXT{'access_list'} = "Lista de Acesso";
@@ -152,7 +152,7 @@ $TEXT{'delete_sc?'} = "Tem certeza de que deseja eliminar o agendador ?";
 $TEXT{'schedule_help'} = "A agenda pode criar tarefas em tempo hábil<br>
 						  Crie uma agenda para cada dia, mês, ano, hora, dia da semana ou qualquer combinação entre eles<br>
  			  Tipos de agendas que podem se criadas:<br>
-                          Snapshot - O snapshot irá ser criado automaticamente com o nome:  volume.data<br>
+                          Snapshot - O snapshot irá ser criado automaticamente com o nome: Volume.Data<br>
  			  Scrub - Encontrar erros no sistema de arquivos e corrigí-los";
 
 
@@ -492,7 +492,7 @@ $TEXT{'nfs_help'} = "O serviço NFS permite compartilhar volumes com sistemas ba
 $TEXT{'samba'} = "SAMBA";
 $TEXT{'smb'} = "SMB";
 $TEXT{'nmb'} = "NMB";
-$TEXT{'smb_workgroup'} = "Nome do Grupo de Trabalho";
+$TEXT{'smb_workgroup'} = "Nome Grupo de Trabalho";
 $TEXT{'smb_netbios'} = "Nome NetBios";
 $TEXT{'smb_not_null'} = "Configurações do Samba não podem ser nulos";
 $TEXT{'smb_name'} = "Nome Compartilhamento";
@@ -514,7 +514,7 @@ $TEXT{'samba_help'} = "O serviço SAMBA permite que você compartilhe volumes co
                           SMB - Inicia ou para o serviço SMB<br>
                           NMB - Inicia ou para o serviço NMB<br><br>
                        Configurações:<br>
-                         Nome do Grupo de Trabalho (WorkGroup) - O nome da rede do Microsoft Windows.<br>
+                         Nome do Grupo de Trabalho (Workgroup) - O nome da rede do Microsoft Windows.<br>
                          Nome Netbios - O nome EasyNAS na rede Microsoft Windows<br><br>
                         Volumes Compartilhados:<br>
                           Exibe e elimina os volumes que tem o compartilhamento SMB";
@@ -549,51 +549,51 @@ $TEXT{'tftp_beware'} = "Cuidado o TFTP não é um protocolo seguro e não requer
 
 
 #### SVR_WEB ####
-$TEXT{'web'} = "Web Server";
-$TEXT{'web_port'} = "Web Port";
-$TEXT{'web_help'} = "The WEB service allows you to create multiple web servers from your storage.<br>
-                     Any share will use the html files on the volume he links to.<br><br>
-		     ON / OFF:  start or stop the WEB service<br>
-                     Web Port: the tcpip port to connect the service
-                     Shared Volumes:  view, add and delete shares that contain a web server";
-$TEXT{'web_beware'} = "only volumes with read access will be visible.";
-$TEXT{'web_select'} = "You can change the web port below:<br><br>";
-$TEXT{'add_web'} = "Add Web Site";
-$TEXT{'web_name'} = "Web Share Name";
-$TEXT{'same_web_port'} = "Port taken by system";
-$TEXT{'bad_web_port'} = "Bad web port";
-$TEXT{'web_not_installed'} = "WEB not installed";
-$TECT{'web_exist'} = "Web share name already exists";
+$TEXT{'web'} = "Servidor Web";
+$TEXT{'web_port'} = "Porta Web";
+$TEXT{'web_help'} = "O serviço WEB permite criar multiplos servidores web a partir do seu armazenamento.<br>
+                     Qualquer compartilhamento usará arquivos html que ligarão ao volume.<br><br>
+		     ON / OFF:  Inicia ou para o serviço WEB<br>
+                     Porta Web : A porta TCP/IP para conectar ao serviço<br>
+					 Volumes Compartilhados: Exiba, adicione e elimine compartilhamentos que contém um servidor web";
+$TEXT{'web_beware'} = "Somente volumes com acesso de leitura será visível.";
+$TEXT{'web_select'} = "Você pode alterar a porta web abaixo:<br><br>";
+$TEXT{'add_web'} = "Adicionar Site Web";
+$TEXT{'web_name'} = "Nome do Compartilhamento Web";
+$TEXT{'same_web_port'} = "Porta tomada pelo sistema";
+$TEXT{'bad_web_port'} = "Porta web errônea";
+$TEXT{'web_not_installed'} = "WEB não instalado";
+$TECT{'web_exist'} = "nome do Compartilhamento Web já existe";
 
 
 
 #### SVR_RSYNC ####
 $TEXT{'rsync'} = "RSYNC";
-$TEXT{'rsync_not_installed'} = "RSYNC not installed";
-$TEXT{'user_not_null'} = "User or Password missing";
-$TEXT{'add_rsync'} = "Add RSYNC Share";
-$TEXT{'rsync_exists'} = "Share name allready exists";
-$TEXT{'rsync_help'} = "Rsync service will allow you to sync from a remote system any of the volumes available on EasyNAS
-                        via Rsync deamon.<br><br>
-                        ON / OFF:  start or stop the Rsync service<br>
-                        username:  the user you will use to connect to the volume<br>
-                        password:  the password you will use to connect to the volume<br>
-                        Shared Volumes: view and delete the volumes that have Rsync share";
+$TEXT{'rsync_not_installed'} = "RSYNC não instalado";
+$TEXT{'user_not_null'} = "Usuário ou senha ausente";
+$TEXT{'add_rsync'} = "Adicionar Compartilhamento RSYNC";
+$TEXT{'rsync_exists'} = "Nome de Compartilhamento já existe";
+$TEXT{'rsync_help'} = "Serviço RSYNC permitirá sincronizar a partir de um sistema remoto qualquer um dos volumes disponível no EasyNAS
+                        via deamon Rsync.<br><br>
+                        ON / OFF:  Inicia ou para o serviço RSYNC<br>
+                        Usuário:  O usuário que usará para conectar-se ao volume<br>
+                        Senha:  A senha que usará para conectar-se ao volume<br>
+                        Volumes Compartilhados: Exiba e elimine os volumes que possuem o compartilhamento RSYNC";
 
 
 #### Radius ####
 $TEXT{'radius'} = "Radius";
-$TEXT{'radius_not_installed'} = "Radius not installed";
-$TEXT{'add_radius'} = "Add Radius Client";
-$TEXT{'client'} = "Client";
-$TEXT{'secret'} = "Secret";
-$TEXT{'ipaddr'} = "IP Address";
-$TEXT{'client_exists'} = "Client allready exists";
-$TEXT{'radius_help'} = "Radius is a network service that allow to authenticate remote clients with EasyNAS users.<br>
-                        The Radius service and the client will share a secret<br><br>
-                        ON / OFF:  start or stop radius service<br>
-                        Settings:  Ajusts radius service setting<br>
-                        Clients: Add or remove radius clients";
+$TEXT{'radius_not_installed'} = "Radius não instalado";
+$TEXT{'add_radius'} = "Adicionar Cliente Radius";
+$TEXT{'client'} = "Cliente";
+$TEXT{'secret'} = "Segredo";
+$TEXT{'ipaddr'} = "Endereço IP";
+$TEXT{'client_exists'} = "Cliente já existe";
+$TEXT{'radius_help'} = "Radius é um serviço de rede que permite autenticar clientes remotos com usuários EasyNAS.<br>
+						O serviço Radius e o cliente irá compartilhar um segredo<br><br>
+                        ON / OFF:  Inicia ou para o serviço Radius<br>
+                        Configurações:  Ajusta as configurações do serviço Radius<br>
+                        Clientes: Adiciona ou remove clientes Radius";
 
 
 ##### Owncloud ######
